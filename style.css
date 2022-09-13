@@ -33,14 +33,8 @@ body{
     border-radius: .5rem;
 }
 
-.card .card-img-top {
-    width: 100%;
-    height: auto;
+picture img{
     border-radius: .5rem .5rem 0 0;
-}
-
-.card .card-img-left {
-    display: none;
 }
 
 .card-body {
@@ -122,18 +116,6 @@ p {
     .card-title{
         font-size: 2.25rem;
     }
-    
-
-    .card .card-img-left {
-        display: block;
-        border-radius: .5rem 0 0 .5rem;
-        max-width: 300px;
-        height: auto;
-    }
-
-    .card img {
-        flex-basis: 50%;
-    }
 
     .card-body {
         flex-basis: 50%;
@@ -141,8 +123,12 @@ p {
         flex-flow: column;
         justify-content: center;
     } 
+    
+    picture {
+        flex-basis: 50%;
+    }
 
-    .card .card-img-top {
-        display: none;
-    }    
+    picture img{
+        border-radius: .5rem 0 0 .5rem;
+    }
  }
